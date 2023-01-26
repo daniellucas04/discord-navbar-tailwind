@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+  .center-li{
+    @apply flex justify-center py-2;
+  }
+
+  .button{
+    @apply bg-secondary rounded-full transition-all duration-300;
+  }
+
+  .image{
+    @apply w-[45px] h-[45px] rounded-full transition-all duration-300;
+  }
+}
